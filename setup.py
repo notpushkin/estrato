@@ -3,7 +3,7 @@ import os
 import sys
 from setuptools import setup
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 if sys.argv[-1] == 'publish':
     # if os.system("pip3 freeze | grep wheel"):

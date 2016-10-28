@@ -67,7 +67,6 @@ async def interact(conn, svr, connector):
 
         command, args = result.split(" ", 1)
         args = ast.literal_eval("%s" % args)
-        print(repr([command, args]))
         rv = await conn.RPC(command, args)
         print(repr(rv))
 
